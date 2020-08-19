@@ -5,6 +5,8 @@ import ResponsiveGallery from 'react-responsive-gallery';
 import ramakien from '../../assets/Json/ramakien'
 import disney from '../../assets/Json/disney'
 import thai from '../../assets/Json/thai'
+import longka from '../../assets/Json/longka'
+
 import {isMobile} from 'react-device-detect';
 
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
@@ -14,11 +16,12 @@ function PageBody() {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
     const [isOpen3, setIsOpen3] = useState(false);
+    const [isOpen4, setIsOpen4] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
     const toggle2 = () => setIsOpen2(!isOpen2);
     const toggle3 = () => setIsOpen3(!isOpen3);
-
+    const toggle4 = () => setIsOpen4(!isOpen4);
 
     if(isMobile) {
         return (
@@ -34,6 +37,9 @@ function PageBody() {
                 </div>
                 <div class="col-lg-12">
 					<Button color="warning" onClick={toggle3} style={{ marginBottom: '1rem', width: '100%' }}>หนังสือเรียนภาษาไทย - Rework</Button>
+                </div>
+                <div class="col-lg-12">
+					<Button color="warning" onClick={toggle4} style={{ marginBottom: '1rem', width: '100%' }}>ขีดขิน ลงกา อโยธยา REMIX</Button>
                 </div>
 			</div>
 		</div>
@@ -109,13 +115,31 @@ function PageBody() {
           </CardBody>
         </Card>
       </Collapse>
-
+      {/* ขีดขิน ลงกา อโยธยา REMIX */}
+      <Collapse isOpen={isOpen4}>
+        <Card>
+          <CardBody>
+          <section class="experience-section section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="heading">
+                            <h3><b>ขีดขิน ลงกา อโยธยา REMIX</b></h3>
+                            <h6 class="font-lite-black"><b>Kishkindha Longka Ayothaya Remix</b></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
-            
-            
-            
-           
-            <section class="experience-section section">
+            <div class="portfolioContainer">
+                <ResponsiveGallery images={longka} />
+            </div>
+        
+            </section>
+          </CardBody>
+        </Card>
+      </Collapse>
+      <section class="experience-section section">
             <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
@@ -202,7 +226,23 @@ function PageBody() {
     <div class="portfolioContainer">
         <ResponsiveGallery images={thai} useLightBox lightBoxAdditionalProps={{imagePadding : 350 }} />
     </div>
+    </section>
 
+    <section class="experience-section section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="heading">
+                    <h3><b>ขีดขิน ลงกา อโยธยา REMIX </b></h3>
+                    <h6 class="font-lite-black"><b>Kishkindha Longka Ayothaya Remix</b></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolioContainer">
+        <ResponsiveGallery images={longka} useLightBox lightBoxAdditionalProps={{imagePadding : 350 }} />
+    </div>
     </section>
    
     <section class="experience-section section">
