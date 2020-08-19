@@ -1,7 +1,6 @@
-import React , {useEffect , useState } from "react";
+import React from "react";
 
 import ResponsiveGallery from 'react-responsive-gallery';
-import { Style } from "react-head";
 
 import ramakien from '../../assets/Json/ramakien'
 import disney from '../../assets/Json/disney'
