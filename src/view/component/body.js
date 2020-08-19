@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState } from "react";
 
 import ResponsiveGallery from 'react-responsive-gallery';
 
@@ -7,31 +7,65 @@ import disney from '../../assets/Json/disney'
 import thai from '../../assets/Json/thai'
 import {isMobile} from 'react-device-detect';
 
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
+
 function PageBody() {
+
+    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false);
+    const [isOpen3, setIsOpen3] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+    const toggle2 = () => setIsOpen2(!isOpen2);
+    const toggle3 = () => setIsOpen3(!isOpen3);
+
 
     if(isMobile) {
         return (
             <>
-            <section class="portfolio-section section">
+            <br/>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="heading">
-                            <h3><b>รามเกียรติ์ - Redraw</b></h3>
-                            <h6 class="font-lite-black"><b>Ramakien - Redraw</b></h6>
-                        </div>
-                    </div>
+			<div class="row">
+				<div class="col-lg-12">
+					<Button color="warning" onClick={toggle} style={{ marginBottom: '1rem' , width: '100%' }}>รามเกียรติ์ - Redraw</Button>
+                </div>
+                <div class="col-lg-12">
+					 <Button color="warning" onClick={toggle2} style={{ marginBottom: '1rem', width: '100%' }}>ตัวร้ายดิสนีย์ตัวโปรดทั้ง 11 ตัว</Button>
+                </div>
+                <div class="col-lg-12">
+					<Button color="warning" onClick={toggle3} style={{ marginBottom: '1rem', width: '100%' }}>หนังสือเรียนภาษาไทย - Rework</Button>
+                </div>
+			</div>
+		</div>
+           
+
+      {/* รามเกียรติ์ - Redraw */}
+      <Collapse isOpen={isOpen}>
+        <Card>
+          <CardBody>
+          <section class="experience-section section">   
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="heading">
+                    <h3><b>รามเกียรติ์ - Redraw</b></h3>
+                    <h6 class="font-lite-black"><b>Ramakien - Redraw</b></h6>
                 </div>
             </div>
-        
-            <div class="portfolioContainer">
-                <ResponsiveGallery images={ramakien} />
-            </div>
-        
-            </section>
-        
-        
-            <section class="experience-section section">
+        </div>
+     </div>
+     <div class="portfolioContainer">
+                <ResponsiveGallery images={ramakien} useLightBox lightBoxAdditionalProps={{imagePadding : 350 }} />
+          </div>  
+     </section>
+          </CardBody>
+        </Card>
+      </Collapse>
+      {/* ตัวร้ายดิสนีย์ตัวโปรดทั้ง 11 ตัว */}
+      <Collapse isOpen={isOpen2}>
+        <Card>
+          <CardBody>
+          <section class="experience-section section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
@@ -48,8 +82,14 @@ function PageBody() {
             </div>
             </section>
         
-            
-            <section class="portfolio-section section">
+          </CardBody>
+        </Card>
+      </Collapse>
+      {/* หนังสือเรียนภาษาไทย - Rework */}
+      <Collapse isOpen={isOpen3}>
+        <Card>
+          <CardBody>
+          <section class="experience-section section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
@@ -66,6 +106,14 @@ function PageBody() {
             </div>
         
             </section>
+          </CardBody>
+        </Card>
+      </Collapse>
+
+        
+            
+            
+            
            
             <section class="experience-section section">
             <div class="container">
@@ -102,7 +150,7 @@ function PageBody() {
   
     return (
     <>
-    <section class="portfolio-section section">
+    <section class="experience-section section">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -139,7 +187,7 @@ function PageBody() {
     </section>
 
     
-    <section class="portfolio-section section">
+    <section class="experience-section section">
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
