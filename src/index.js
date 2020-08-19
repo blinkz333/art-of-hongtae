@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import GallaryPage from './view/gallary'
+
+// Font
+import './assets/common-css/fontgoogle.css'
+// StyleSheet
+import './assets/common-css/bootstrap.css'
+import './assets/common-css/ionicons.css'
+import './assets/common-css/fluidbox.min.css'
+import './assets/port/styles.css'
+import './assets/port/responsive.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GallaryPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
