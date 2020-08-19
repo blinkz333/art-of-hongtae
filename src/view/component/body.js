@@ -241,7 +241,7 @@ function PageBody() {
     </div>
 
     <div class="portfolioContainer">
-        <ResponsiveGallery images={longka} useLightBox lightBoxAdditionalProps={{imagePadding : 350 }} />
+        <ResponsiveGallery images={longka} useLightBox lightBoxAdditionalProps={{imagePadding : 400 }} />
     </div>
     </section>
    
