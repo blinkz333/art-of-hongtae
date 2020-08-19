@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88f018fa51345508168e6128d9ef384b",
+    "revision": "30d4592380ca651181c06522b81c90b2",
     "url": "/art-of-hongtae/index.html"
   },
   {
-    "revision": "c673fde19dec9d080d8e",
-    "url": "/art-of-hongtae/static/css/main.ee0c9e5f.chunk.css"
+    "revision": "884e9565ccc2c723a7c2",
+    "url": "/art-of-hongtae/static/css/main.02584ffe.chunk.css"
   },
   {
     "revision": "08af7c31319b2db310ae",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/art-of-hongtae/static/js/2.f62265fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c673fde19dec9d080d8e",
+    "revision": "884e9565ccc2c723a7c2",
     "url": "/art-of-hongtae/static/js/main.c5f4b72c.chunk.js"
   },
   {
@@ -156,11 +156,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/art-of-hongtae/static/media/ionicons.621bd386.svg"
   },
   {
-    "revision": "7babf205b8e02d8ef3fb641123ef0a5f",
-    "url": "/art-of-hongtae/static/media/profile.7babf205.jpg"
+    "revision": "8d544026c27ab30c2e6a3d6961cca07e",
+    "url": "/art-of-hongtae/static/media/pano1.8d544026.jpg"
   },
   {
-    "revision": "1f3d16e1a90d0798718604f9720ccfda",
-    "url": "/art-of-hongtae/static/media/wirun-bg.1f3d16e1.jpg"
+    "revision": "7babf205b8e02d8ef3fb641123ef0a5f",
+    "url": "/art-of-hongtae/static/media/profile.7babf205.jpg"
   }
 ]);
