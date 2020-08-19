@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/art-of-hongtae/precache-manifest.058940d7f5426715fbc89fb44e3ed4d7.js"
+  "/art-of-hongtae/precache-manifest.80edf4695f6c059e3838d927ef3fbe5a.js"
 );
 
 self.addEventListener('message', (event) => {
