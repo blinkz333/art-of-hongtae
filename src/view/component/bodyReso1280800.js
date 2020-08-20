@@ -45,7 +45,7 @@ function PageBodyMobile() {
     </div>
 
     <div class="portfolioContainer">
-        <ResponsiveGallery images={ramakien} useLightBox lightBoxAdditionalProps={{imagePadding : 550 }} />
+        <ResponsiveGallery images={ramakien} useLightBox lightBoxAdditionalProps={{imagePadding : 600 }} />
     </div>
 
     </section>
@@ -64,7 +64,7 @@ function PageBodyMobile() {
     </div>
 
     <div class="portfolioContainer">
-        <ResponsiveGallery images={disney} useLightBox lightBoxAdditionalProps={{imagePadding : 550 }} />
+        <ResponsiveGallery images={disney} useLightBox lightBoxAdditionalProps={{imagePadding : 600 }} />
     </div>
     </section>
 
@@ -82,7 +82,7 @@ function PageBodyMobile() {
     </div>
 
     <div class="portfolioContainer">
-        <ResponsiveGallery images={thai} useLightBox lightBoxAdditionalProps={{imagePadding : 550 }} />
+        <ResponsiveGallery images={thai} useLightBox lightBoxAdditionalProps={{imagePadding : 600 }} />
     </div>
     </section>
 
@@ -99,7 +99,7 @@ function PageBodyMobile() {
     </div>
 
     <div class="portfolioContainer">
-        <ResponsiveGallery images={longka} useLightBox lightBoxAdditionalProps={{imagePadding : 550 }} />
+        <ResponsiveGallery images={longka} useLightBox lightBoxAdditionalProps={{imagePadding : 600 }} />
     </div>
     </section>
    

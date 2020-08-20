@@ -32,6 +32,8 @@ function PageBody() {
 
     window.addEventListener('scroll', checkScrollTop)
 
+    console.log(window.screen.height * window.devicePixelRatio)
+
     if(isMobile) {
         return(
             <PageBodyMobile/>
