@@ -7,9 +7,10 @@ import disney from '../../assets/Json/disney'
 import thai from '../../assets/Json/thai'
 import longka from '../../assets/Json/longka'
 
-import {isMobile} from 'react-device-detect';
+import {isMobile , isTablet} from 'react-device-detect';
 
 import PageBodyMobile from '../component/bodyMobile'
+import PageBodyReso1280 from '../component/bodyReso1280800'
 import {FaArrowCircleUp} from 'react-icons/fa';
 import '../../App.css';
 
@@ -36,7 +37,16 @@ function PageBody() {
             <PageBodyMobile/>
         )
         
+    }else if (isTablet){
+        return(
+            <PageBodyMobile/>
+        )
+    }else if ( window.screen.width * window.devicePixelRatio <= 1280 && window.screen.height * window.devicePixelRatio <= 800){
+        return(
+            <PageBodyReso1280/>
+        )
     }
+
   
     return (
     <>
