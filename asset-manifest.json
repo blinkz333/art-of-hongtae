@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/art-of-hongtae/static/css/main.f3e590e1.chunk.css",
-    "main.js": "/art-of-hongtae/static/js/main.11a17d35.chunk.js",
-    "main.js.map": "/art-of-hongtae/static/js/main.11a17d35.chunk.js.map",
+    "main.css": "/art-of-hongtae/static/css/main.cc2c5bba.chunk.css",
+    "main.js": "/art-of-hongtae/static/js/main.448211cb.chunk.js",
+    "main.js.map": "/art-of-hongtae/static/js/main.448211cb.chunk.js.map",
     "runtime-main.js": "/art-of-hongtae/static/js/runtime-main.ed89f27e.js",
     "runtime-main.js.map": "/art-of-hongtae/static/js/runtime-main.ed89f27e.js.map",
     "static/js/2.2c88cb21.chunk.js": "/art-of-hongtae/static/js/2.2c88cb21.chunk.js",
     "static/js/2.2c88cb21.chunk.js.map": "/art-of-hongtae/static/js/2.2c88cb21.chunk.js.map",
     "index.html": "/art-of-hongtae/index.html",
-    "precache-manifest.07263d05dde0cb83676f427a4621e3e5.js": "/art-of-hongtae/precache-manifest.07263d05dde0cb83676f427a4621e3e5.js",
+    "precache-manifest.d9d882b13577ef1fcc09b647a8af74ac.js": "/art-of-hongtae/precache-manifest.d9d882b13577ef1fcc09b647a8af74ac.js",
     "service-worker.js": "/art-of-hongtae/service-worker.js",
-    "static/css/main.f3e590e1.chunk.css.map": "/art-of-hongtae/static/css/main.f3e590e1.chunk.css.map",
+    "static/css/main.cc2c5bba.chunk.css.map": "/art-of-hongtae/static/css/main.cc2c5bba.chunk.css.map",
     "static/js/2.2c88cb21.chunk.js.LICENSE.txt": "/art-of-hongtae/static/js/2.2c88cb21.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/art-of-hongtae/static/media/1.76bc10be.jpg",
     "static/media/10.jpg": "/art-of-hongtae/static/media/10.c7055a03.jpg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed89f27e.js",
     "static/js/2.2c88cb21.chunk.js",
-    "static/css/main.f3e590e1.chunk.css",
-    "static/js/main.11a17d35.chunk.js"
+    "static/css/main.cc2c5bba.chunk.css",
+    "static/js/main.448211cb.chunk.js"
   ]
 }

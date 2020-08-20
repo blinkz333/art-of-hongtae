@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5d654bbe07570a6ea8fd1d8cabfbce5",
+    "revision": "ffbbb2102f7522924601168e51a841fc",
     "url": "/art-of-hongtae/index.html"
   },
   {
-    "revision": "b4c1a05723ec4cae15df",
-    "url": "/art-of-hongtae/static/css/main.f3e590e1.chunk.css"
+    "revision": "93bfadf641817a02b523",
+    "url": "/art-of-hongtae/static/css/main.cc2c5bba.chunk.css"
   },
   {
     "revision": "249e30a61103e61600d8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/art-of-hongtae/static/js/2.2c88cb21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4c1a05723ec4cae15df",
-    "url": "/art-of-hongtae/static/js/main.11a17d35.chunk.js"
+    "revision": "93bfadf641817a02b523",
+    "url": "/art-of-hongtae/static/js/main.448211cb.chunk.js"
   },
   {
     "revision": "a79e387e8ae3ea36cb95",
