@@ -79,7 +79,7 @@ function PageBodyMobile() {
         </div>
      </div>
      <div class="portfolioContainer">
-                <ResponsiveGallery images={ramakien} useLightBox lightBoxAdditionalProps={{imagePadding : 350 }} />
+                <ResponsiveGallery images={ramakien} />
           </div>  
      </section>
           </CardBody>
